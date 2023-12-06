@@ -1,0 +1,29 @@
+hint = 'rafts[0] is the first raft'
+code = """
+rafts[0].right 7
+rafts[1].right 7
+rafts[2].right 9
+up 6
+"""
+answer = """
+rafts[0].right 7
+rafts[1].right 7
+rafts[2].right 7
+up 6
+"""
+successMsg = 'Good, all the rafts helps!'
+layout = """
+     tt     tt
+     tt     tt
+     tt     tt
+     tt     tt
+     tt     tt
+     tt  s  tt
+     tt     tt
+wwTwwwwwwwwwwwwwwwww
+wwTwwwwwwwwwwwwwwwww
+wwTwwwwwwwwwwwwwwwww
+     tt     tt
+     tt  i  tt
+     ttttttttt
+"""

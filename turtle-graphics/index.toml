@@ -1,0 +1,13 @@
+name = 'Turtle graphics'
+mode = "turtle"
+<<<<<<< HEAD
+levels = ['1']
+[sprites.p]
+isPen = true
+color = '#cccc00'
+[sprites.x]
+color = '#555555'
+[sprites.P]
+sprites = 'xp'
+=======
+>>>>>>> d989928 (code star)

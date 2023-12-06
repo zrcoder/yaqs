@@ -1,0 +1,33 @@
+hint = 'for loop'
+code = """
+dist := 9
+for raft <- rafts {
+    raft.right dist
+    dist++
+}
+up 6
+"""
+answer = """
+dist := 9
+for raft <- rafts {
+    raft.right dist
+    dist++
+}
+up 6
+"""
+successMsg = 'Wonderful, you flexibly applied variables!'
+layout = """
+     tt     tt
+     tt     tt
+     tt     tt
+     tt     tt
+     tt     tt
+     tt  s  tt
+     tt     tt
+wwTwwwwwwwwwwwwwwwww
+wTwwwwwwwwwwwwwwwwww
+Twwwwwwwwwwwwwwwwwww
+     tt     tt
+     tt  i  tt
+     ttttttttt
+"""

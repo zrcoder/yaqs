@@ -1,0 +1,29 @@
+hint = 'for loop'
+code = """
+for raft <- rafts {
+    raft.right 9
+}
+up 6
+"""
+answer = """
+for raft <- rafts {
+    raft.right 7
+}
+up 6
+"""
+successMsg = 'Bingo, the rafts helps!'
+layout = """
+     tt     tt
+     tt     tt
+     tt     tt
+     tt     tt
+     tt     tt
+     tt  s  tt
+     tt     tt
+wwTwwwwwwwwwwwwwwwww
+wwTwwwwwwwwwwwwwwwww
+wwTwwwwwwwwwwwwwwwww
+     tt     tt
+     tt  i  tt
+     ttttttttt
+"""

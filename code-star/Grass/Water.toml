@@ -1,0 +1,23 @@
+hint = 'You can not cross water'
+code = """
+up 6
+"""
+answer = """
+up 6
+right 6
+"""
+successMsg = 'Wonderful!'
+layout = """
+
+
+
+
+
+            s
+       ww
+        ww
+         ww
+          ww
+           ww
+      i
+"""

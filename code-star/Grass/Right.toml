@@ -1,0 +1,20 @@
+hint = 'Use `right` command to move and get the star'
+code = """
+right 1
+"""
+answer = """
+right 12
+"""
+successMsg = 'Wonderful, you got it!'
+layout = """
+
+
+
+
+
+
+
+
+
+  i           s
+"""

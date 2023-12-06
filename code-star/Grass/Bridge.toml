@@ -1,0 +1,24 @@
+hint = 'You can not cross water'
+code = """
+down 8
+"""
+answer = """
+downRight 4
+doenLeft 4
+"""
+successMsg = 'Yes, the bridge helps!'
+layout = """
+
+
+
+       i
+
+        bbbbb
+wwwwwwwwwbbbwwwwwwwwtwwww
+wwwtwwwwwbbbwwwwwtwtwwwww
+wwwwwwwwwbbbwwwwwtwwwwtww
+        bbbbb
+
+       s
+"""
+

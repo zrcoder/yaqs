@@ -1,0 +1,21 @@
+hint = 'Yaq is on a raft which can move in the water'
+code = """
+raft.right 10
+"""
+answer = """
+raft.right 12
+"""
+successMsg = 'Bingo, the raft helps!'
+layout = """
+
+
+
+
+
+
+
+wwwwwwwwwwwwwwwwwwww
+wwRwwwwwwwwwwwwwwSww
+wwwwwwwwwwwwwwwwwwww
+
+"""

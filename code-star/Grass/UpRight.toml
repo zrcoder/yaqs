@@ -1,0 +1,20 @@
+hint = 'You can also move with command `upRight`'
+code = """
+upRight 3
+"""
+answer = """
+upRight right 4
+"""
+layout = """
+
+
+
+
+
+        t   s
+
+
+
+        i   t
+"""
+

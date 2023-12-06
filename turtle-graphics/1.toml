@@ -1,0 +1,17 @@
+
+hint = 'You can also move up'
+code = """
+up 3
+"""
+answer = """
+up 6
+"""
+successMsg = 'good job!'
+layout = """
+
+
+
+
+       Pxxxxxx
+"""
+penUp = false

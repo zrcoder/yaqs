@@ -1,0 +1,53 @@
+bgColor1 = '#7bd809'
+bgColor2 = '#4c8426'
+levels = ['Right', 'Up', 'Water', 'UpRight', 'AllDirections', 'Bridge', 'Raft', 'Array', 'Loop', 'Variable']
+# levels = ['ForLoop', 'Variable']
+
+[sprites.i]
+name = 'yaq'
+color = '#ffff00'
+isPlayer = true
+canMove = true
+display = '☻'
+foods = 's'
+freinds = 'r'
+forbbiden = 'wt'
+
+[sprites.s]
+name = 'star'
+group = 'stars'
+color = '#ffff00'
+display = '★'
+
+[sprites.w]
+name = 'water'
+group = 'water'
+display = ' '
+bgColor = '#0000cc'
+
+[sprites.b]
+group = 'bridge'
+display = ' '
+bgColor = '#8b0000'
+
+[sprites.t]
+group = 'trees'
+display = '⚚'
+
+[sprites.r]
+name = 'raft'
+group = 'rafts'
+display = ' '
+canMove = true
+bgColor = '#a52a2a'
+forbbiden = ' tb'
+
+# combined sprites
+[sprites.T]
+sprites = 'wr'
+
+[sprites.R] # yaq on a raft
+sprites = 'wri'
+
+[sprites.S] # star on water
+sprites = 'ws'
