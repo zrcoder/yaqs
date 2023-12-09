@@ -1,13 +1,15 @@
 name = 'Turtle graphics'
 mode = "turtle"
-<<<<<<< HEAD
-levels = ['1']
+rows = 20
+columns = 20
+levels = ['rectangle', 'diamond', 'house']
+# levels = ['house']
 [sprites.p]
 isPen = true
+[sprites.p.pen]
+display = '◉'
 color = '#cccc00'
-[sprites.x]
-color = '#555555'
+[sprites.x.block]
+bgColor = '#555555'
 [sprites.P]
 sprites = 'xp'
-=======
->>>>>>> d989928 (code star)
