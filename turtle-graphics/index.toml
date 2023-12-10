@@ -3,7 +3,6 @@ mode = "turtle"
 rows = 20
 columns = 20
 levels = ['rectangle', 'diamond', 'house']
-# levels = ['house']
 [sprites.p]
 isPen = true
 [sprites.p.pen]

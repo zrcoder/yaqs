@@ -1,0 +1,32 @@
+disks = 5
+hint = """
+complete the solve function
+"""
+code = """
+func solve(a, b, c func(), total int) {
+    if total == 0 {
+        return
+    }
+    solve(a, c, b, total-1)
+    // move the only 1 disk from a to c
+    
+    
+    solve(b, a, c, total-1)
+}
+
+solve A, B, C, 5
+"""
+answer = """
+func solve(a, b, c func(), total int) {
+    if total == 0 {
+        return
+    }
+    solve(a, c, b, total-1)
+    // move the only 1 disk from a to c
+    a
+    c
+    solve(b, a, c, total-1)
+}
+
+solve A, B, C, 5
+"""
