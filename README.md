@@ -22,7 +22,7 @@ go install github.com/zrcoder/yaq/cmd/yaq@latest
 ```shell
 git clone https://github.com/zrcoder/yaqs
 cd yaqs
-yaq code-start
+yaq code-star
 # yaq turtle-graphics
 # cd hanoi && yaq
 ```
